@@ -1,0 +1,5 @@
+---
+description: Quick reference for manbun levels, skills, and commands
+---
+
+Show the manbun quick reference. One shot, change nothing: do not switch mode, write flag files, or persist anything. Levels: /manbun lite (build what's asked, name the lazier alternative in one line), /manbun (full, the default ladder: YAGNI then stdlib then native then one line then minimum), /manbun ultra (deletion before addition, challenges the requirement before building). Commands: /manbun-review (over-engineering review of the current changes), /manbun-audit (whole-repo over-engineering audit), /manbun-debt (harvest manbun: comments into a tracked ledger), /manbun-gain (measured-impact scoreboard from the benchmark), /manbun-help (this card). Deactivate with 'stop manbun', 'normal mode', or /manbun off; resume anytime with /manbun. Default mode is full; change it with the MANBUN_DEFAULT_MODE environment variable (off|lite|full|ultra) or a config file at ~/.config/manbun/config.json (Windows: %APPDATA%\manbun\config.json) with {"defaultMode": "lite"}. Resolution order: env var, then config file, then full.

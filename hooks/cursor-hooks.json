@@ -3,13 +3,13 @@
   "hooks": {
     "sessionStart": [
       {
-        "command": "node \"PONYTAIL_DIR/hooks/ponytail-activate.js\"",
+        "command": "node \"MANBUN_DIR/hooks/manbun-activate.js\"",
         "timeout": 5
       }
     ],
     "beforeSubmitPrompt": [
       {
-        "command": "node \"PONYTAIL_DIR/hooks/ponytail-mode-tracker.js\"",
+        "command": "node \"MANBUN_DIR/hooks/manbun-mode-tracker.js\"",
         "timeout": 5
       }
     ]

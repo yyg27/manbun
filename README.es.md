@@ -1,37 +1,37 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
-    <img src="assets/logo.png" width="220" alt="Ponytail, el senior dev flojo">
+    <img src="assets/logo.png" width="220" alt="Manbun, el senior dev flojo">
   </picture>
 </p>
 
-<h1 align="center">Ponytail</h1>
+<h1 align="center">Manbun</h1>
 
 <p align="center">
   <em>No dice nada. Escribe una línea. Funciona.</em>
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/50668" alt="DietrichGebert%2Fponytail | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/50668" alt="yyg27%2Fmanbun | Trendshift" width="250" height="55"/></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars" alt="Stars">
-  <img src="https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release" alt="Release">
-  <img src="https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm" alt="npm">
+  <img src="https://img.shields.io/github/stars/yyg27/manbun?style=flat-square&color=111111&label=stars" alt="Stars">
+  <img src="https://img.shields.io/github/v/release/yyg27/manbun?style=flat-square&color=111111&label=release" alt="Release">
+  <img src="https://img.shields.io/npm/v/@yyg27/manbun?style=flat-square&color=111111&label=npm" alt="npm">
   <img src="https://img.shields.io/badge/funciona%20con-15%20agentes-111111?style=flat-square" alt="Works with 15 agents">
   <img src="https://img.shields.io/badge/licencia-MIT-111111?style=flat-square" alt="MIT license">
 </p>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/daily" alt="DietrichGebert/ponytail | Trendshift" width="250" height="55"/></a>
-  <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/weekly" alt="DietrichGebert/ponytail | Trendshift" width="250" height="55"/></a>
-  <a href="https://trendshift.io/repositories/50668?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/monthly?language=JavaScript" alt="DietrichGebert%2Fponytail | Trendshift monthly ranking" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/daily" alt="yyg27/manbun | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/weekly" alt="yyg27/manbun | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/50668?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/monthly?language=JavaScript" alt="yyg27%2Fmanbun | Trendshift monthly ranking" width="250" height="55"/></a>
 </p>
 
 <p align="center">
   <strong>~54% menos de código (hasta 94%) &middot; ~20% más barato &middot; ~27% más rápido &middot; 100% seguro</strong><br>
-  <sub>Medido en sesiones reales de Claude Code editando un repo open-source real (FastAPI + React), contra el mismo agente sin skill. ~54% es el promedio de 12 tareas de feature (Haiku 4.5, n=4); llega al 94% cuando un agente sobre-construye (un selector de fechas) y es casi cero cuando el código ya es mínimo. ponytail mantiene cada guarda de seguridad, mientras que un prompt simple de "escribe one-liners" se salta una. (El benchmark anterior de un solo disparo reportaba 80-94% como cifra plana; contra un baseline agéntico justo, ese es el techo por tarea, no el promedio.) <a href="benchmarks/results/2026-06-18-agentic.md">Reporte completo</a> &middot; <a href="benchmarks/">reprodúcelo</a>.</sub>
+  <sub>Medido en sesiones reales de Claude Code editando un repo open-source real (FastAPI + React), contra el mismo agente sin skill. ~54% es el promedio de 12 tareas de feature (Haiku 4.5, n=4); llega al 94% cuando un agente sobre-construye (un selector de fechas) y es casi cero cuando el código ya es mínimo. manbun mantiene cada guarda de seguridad, mientras que un prompt simple de "escribe one-liners" se salta una. (El benchmark anterior de un solo disparo reportaba 80-94% como cifra plana; contra un baseline agéntico justo, ese es el techo por tarea, no el promedio.) <a href="benchmarks/results/2026-06-18-agentic.md">Reporte completo</a> &middot; <a href="benchmarks/">reprodúcelo</a>.</sub>
 </p>
 
 <p align="center">
@@ -41,21 +41,21 @@
 ---
 
 <p align="center">
-  <a href="https://ponytail.dev/soon"><img src="assets/waitlist-banner-es.png" alt="Algo nuevo está por llegar, únete a la lista" width="760"></a>
+  <a href="https://manbun.dev/soon"><img src="assets/waitlist-banner-es.png" alt="Algo nuevo está por llegar, únete a la lista" width="760"></a>
 </p>
 
 Lo conoces. Cola de caballo larga. Lentes ovalados. Lleva más tiempo en la empresa que el control de versiones. Le muestras cincuenta líneas; las mira, no dice nada, y las reemplaza por una.
 
-Ponytail lo pone dentro de tu agente de IA.
+Manbun lo pone dentro de tu agente de IA.
 
 ## Antes / después
 
 Le pides un selector de fechas. Tu agente instala flatpickr, escribe un componente wrapper, agrega un stylesheet, y empieza una discusión sobre zonas horarias.
 
-Con ponytail:
+Con manbun:
 
 ```html
-<!-- ponytail: el browser ya tiene uno -->
+<!-- manbun: el browser ya tiene uno -->
 <input type="date">
 ```
 
@@ -66,27 +66,27 @@ Más sobrevivientes en [examples/](examples/).
 La medición honesta es un agente real haciendo trabajo real: una sesión headless de Claude Code editando [el template full-stack-fastapi de tiangolo](https://github.com/fastapi/full-stack-fastapi-template) (un repo real de FastAPI + React), evaluada sobre el `git diff` que deja. Doce tickets de feature, el mismo agente con y sin el skill, n=4, Haiku 4.5.
 
 <p align="center">
-  <img src="assets/benchmark-agentic.svg" width="860" alt="Cada variante como porcentaje del baseline sin skill en LOC, tokens, costo y tiempo (Haiku 4.5). ponytail es el más bajo en cada métrica (LOC 46%, tokens 78%, costo 80%, tiempo 73%); caveman sube por encima del 100% en tokens, costo y tiempo; yagni-oneliner LOC 67%. Seguridad, tier adversarial aparte: baseline, caveman y ponytail 100%, yagni-oneliner 95%.">
+  <img src="assets/benchmark-agentic.svg" width="860" alt="Cada variante como porcentaje del baseline sin skill en LOC, tokens, costo y tiempo (Haiku 4.5). manbun es el más bajo en cada métrica (LOC 46%, tokens 78%, costo 80%, tiempo 73%); caveman sube por encima del 100% en tokens, costo y tiempo; yagni-oneliner LOC 67%. Seguridad, tier adversarial aparte: baseline, caveman y manbun 100%, yagni-oneliner 95%.">
 </p>
 
 | vs baseline sin skill | LOC | tokens | costo | tiempo | seguro |
 |---|--:|--:|--:|--:|--:|
-| **ponytail** | **-54%** | **-22%** | **-20%** | **-27%** | **100%** |
+| **manbun** | **-54%** | **-22%** | **-20%** | **-27%** | **100%** |
 | caveman (control de prosa concisa) | -20% | +7% | +3% | +2% | 100% |
 | prompt "YAGNI + one-liners" | -33% | -14% | -21% | -30% | 95% |
 
-ponytail es la única variante que recorta cada métrica, y la única que se mantiene totalmente segura al hacerlo. El recorte es mayor donde hay una trampa real de sobre-construcción (selector de fechas de 404 a 23 líneas, selector de color de 287 a 23, porque usa un `<input>` nativo en vez de un componente) y casi cero en código que ya es mínimo. Método completo, tablas por tarea y limitaciones: [benchmarks/results/2026-06-18-agentic.md](benchmarks/results/2026-06-18-agentic.md).
+manbun es la única variante que recorta cada métrica, y la única que se mantiene totalmente segura al hacerlo. El recorte es mayor donde hay una trampa real de sobre-construcción (selector de fechas de 404 a 23 líneas, selector de color de 287 a 23, porque usa un `<input>` nativo en vez de un componente) y casi cero en código que ya es mínimo. Método completo, tablas por tarea y limitaciones: [benchmarks/results/2026-06-18-agentic.md](benchmarks/results/2026-06-18-agentic.md).
 
 <details>
 <summary><strong>Números anteriores de un solo disparo (generación aislada)</strong></summary>
 
-Cinco tareas del día a día, tres modelos, tres variantes (sin skill, [caveman](https://github.com/JuliusBrussee/caveman), ponytail), diez ejecuciones, mediana reportada. Un prompt, una completación, contando las líneas de la respuesta:
+Cinco tareas del día a día, tres modelos, tres variantes (sin skill, [caveman](https://github.com/JuliusBrussee/caveman), manbun), diez ejecuciones, mediana reportada. Un prompt, una completación, contando las líneas de la respuesta:
 
 <p align="center">
   <img src="assets/benchmark-3model.svg" width="860" alt="Mediana de líneas de código por variante en Haiku, Sonnet y Opus">
 </p>
 
-Esto mostraba **80-94% menos código**. [#126](https://github.com/DietrichGebert/ponytail/issues/126) señaló con razón que el baseline del modelo pelado infla su respuesta con prosa y opciones, así que esa diferencia es en parte un artefacto del baseline conversacional. Los números agénticos de arriba son la versión corregida y defendible. Reproduce la corrida de un solo disparo con `npx promptfoo eval -c benchmarks/promptfooconfig.yaml`.
+Esto mostraba **80-94% menos código**. [#126](https://github.com/yyg27/manbun/issues/126) señaló con razón que el baseline del modelo pelado infla su respuesta con prosa y opciones, así que esa diferencia es en parte un artefacto del baseline conversacional. Los números agénticos de arriba son la versión corregida y defendible. Reproduce la corrida de un solo disparo con `npx promptfoo eval -c benchmarks/promptfooconfig.yaml`.
 
 </details>
 
@@ -112,15 +112,15 @@ Flojo, no negligente: la validación en límites de confianza, el manejo de pér
 
 ## Instalación
 
-El mayor esfuerzo que ponytail te va a pedir:
+El mayor esfuerzo que manbun te va a pedir:
 
 Los plugins de Claude Code y Codex ejecutan dos pequeños lifecycle hooks de Node.js, así que `node` debe estar en tu PATH (nota para usuarios de Nix/nvm: debe estar en el PATH del shell no-interactivo). Si no lo está, los skills igualmente funcionan, la activación automática simplemente queda en silencio en vez de lanzar un error en cada prompt.
 
 ### Claude Code
 
 ```
-/plugin marketplace add DietrichGebert/ponytail
-/plugin install ponytail@ponytail
+/plugin marketplace add yyg27/manbun
+/plugin install manbun@manbun
 ```
 
 La app de escritorio no tiene el comando `/plugin`. Instálala desde la interfaz: Customize, el + junto a los plugins personales, Create plugin and add marketplace, Add from repository, y luego ingresa la URL del repo (gracias @NiklasDHahn, #98).
@@ -128,39 +128,39 @@ La app de escritorio no tiene el comando `/plugin`. Instálala desde la interfaz
 ### Codex
 
 ```bash
-codex plugin marketplace add DietrichGebert/ponytail
+codex plugin marketplace add yyg27/manbun
 codex
 ```
 
-Abre `/plugins`, selecciona el marketplace de Ponytail e instala Ponytail. Luego abre `/hooks`, revisa y autoriza sus dos lifecycle hooks, y empieza un nuevo hilo.
+Abre `/plugins`, selecciona el marketplace de Manbun e instala Manbun. Luego abre `/hooks`, revisa y autoriza sus dos lifecycle hooks, y empieza un nuevo hilo.
 
 Esta misma instalación cubre también la app de escritorio de Codex: reinicia la app después de instalar y detecta el plugin automáticamente.
 
 ### GitHub Copilot CLI
 
 ```bash
-copilot plugin marketplace add DietrichGebert/ponytail
-copilot plugin install ponytail@ponytail
+copilot plugin marketplace add yyg27/manbun
+copilot plugin install manbun@manbun
 ```
 
 En una sesión interactiva de Copilot CLI, usa los equivalentes con slash:
 
 ```
-/plugin marketplace add DietrichGebert/ponytail
-/plugin install ponytail@ponytail
+/plugin marketplace add yyg27/manbun
+/plugin install manbun@manbun
 ```
 
 Copilot CLI agrupa los comandos del plugin bajo el nombre del plugin. Por ejemplo:
 
 ```text
-/ponytail:ponytail ultra
-/ponytail:ponytail-review
+/manbun:manbun ultra
+/manbun:manbun-review
 ```
 
 ### Pi agent harness
 
 ```
-pi install git:github.com/DietrichGebert/ponytail
+pi install git:github.com/yyg27/manbun
 ```
 
 ### OpenCode
@@ -168,36 +168,36 @@ pi install git:github.com/DietrichGebert/ponytail
 Agrega esto a `opencode.json`:
 
 ```json
-{ "plugin": ["@dietrichgebert/ponytail"] }
+{ "plugin": ["@yyg27/manbun"] }
 ```
 
 O ejecútalo desde un checkout (el plugin reutiliza sus `hooks/` y `skills/`):
 
 ```json
-{ "plugin": ["./.opencode/plugins/ponytail.mjs"] }
+{ "plugin": ["./.opencode/plugins/manbun.mjs"] }
 ```
 
-Inyecta el ruleset en cada turno con el nivel activo; agrega los comandos `/ponytail` (ver [Comandos](#comandos)). OpenCode también carga automáticamente el `AGENTS.md` de este repo, así que las reglas aplican incluso sin el plugin. El plugin agrega los niveles `lite/full/ultra/off`.
+Inyecta el ruleset en cada turno con el nivel activo; agrega los comandos `/manbun` (ver [Comandos](#comandos)). OpenCode también carga automáticamente el `AGENTS.md` de este repo, así que las reglas aplican incluso sin el plugin. El plugin agrega los niveles `lite/full/ultra/off`.
 
 El path `./` se resuelve contra el `opencode.json` de tu proyecto; para compartir un único checkout entre proyectos, apunta al path absoluto del `.mjs` (encuentra sus `hooks/` y `skills/` relativo a su propio archivo).
 
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/DietrichGebert/ponytail
+gemini extensions install https://github.com/yyg27/manbun
 ```
 
-Carga el ruleset como contexto permanente en cada sesión y registra los comandos `/ponytail`; los `skills/` también se incluyen, activados cuando una tarea los necesita.
+Carga el ruleset como contexto permanente en cada sesión y registra los comandos `/manbun`; los `skills/` también se incluyen, activados cuando una tarea los necesita.
 
 ### Antigravity CLI
 
 Google está renombrando Gemini CLI a Antigravity CLI (el binario `agy`); la misma extensión se instala ahí:
 
 ```bash
-agy plugin install https://github.com/DietrichGebert/ponytail
+agy plugin install https://github.com/yyg27/manbun
 ```
 
-Reutiliza el `gemini-extension.json` de este repo. Una diferencia: Antigravity convierte los comandos `/ponytail` en skills, así que los escribes en el chat (por ejemplo `/ponytail-review` como mensaje) en vez de seleccionarlos de un menú slash. Hasta que la migración se complete (alrededor del 18 de junio de 2026), `gemini extensions install` también funciona. Para usarlo como regla permanente, coloca el ruleset en `.agents/rules/`.
+Reutiliza el `gemini-extension.json` de este repo. Una diferencia: Antigravity convierte los comandos `/manbun` en skills, así que los escribes en el chat (por ejemplo `/manbun-review` como mensaje) en vez de seleccionarlos de un menú slash. Hasta que la migración se complete (alrededor del 18 de junio de 2026), `gemini extensions install` también funciona. Para usarlo como regla permanente, coloca el ruleset en `.agents/rules/`.
 
 ### CodeWhale
 
@@ -206,56 +206,56 @@ Lee `AGENTS.md` desde la raíz del proyecto, sin configuración. Copia [`AGENTS.
 ### Devin CLI
 
 ```bash
-devin plugins install DietrichGebert/ponytail
+devin plugins install yyg27/manbun
 ```
 
-Instala ponytail como plugin de Devin; los skills quedan disponibles como `/ponytail:ponytail`, `/ponytail:ponytail-review`, etc.
+Instala manbun como plugin de Devin; los skills quedan disponibles como `/manbun:manbun`, `/manbun:manbun-review`, etc.
 
 ### OpenClaw
 
 ```bash
-clawhub install ponytail
+clawhub install manbun
 ```
 
-Instala ponytail como skill de OpenClaw desde ClawHub; los skills de review, audit, debt y help se instalan igual (`clawhub install ponytail-review`, etc.). OpenClaw lo aplica en tareas de código y también lo expone como comando `/ponytail`. Sin ClawHub, copia [`.openclaw/skills/ponytail`](.openclaw/skills/) a `~/.openclaw/skills/`.
+Instala manbun como skill de OpenClaw desde ClawHub; los skills de review, audit, debt y help se instalan igual (`clawhub install manbun-review`, etc.). OpenClaw lo aplica en tareas de código y también lo expone como comando `/manbun`. Sin ClawHub, copia [`.openclaw/skills/manbun`](.openclaw/skills/) a `~/.openclaw/skills/`.
 
 ### Grok Build
 
 ```bash
-grok plugin install DietrichGebert/ponytail --trust
+grok plugin install yyg27/manbun --trust
 ```
 
-Habilita el plugin (está desactivado por defecto): `/plugins` → Plugins → Space en `ponytail`, o en `~/.grok/config.toml`:
+Habilita el plugin (está desactivado por defecto): `/plugins` → Plugins → Space en `manbun`, o en `~/.grok/config.toml`:
 
 ```toml
 [plugins]
-enabled = ["ponytail"]
+enabled = ["manbun"]
 ```
 
-Abre una sesión nueva (o recarga los plugins). Los skills aparecen como `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/ponytail-debt`, `/ponytail-gain`, `/ponytail-help`. Verifica con `grok inspect`. Grok puede invocar ponytail automáticamente en tareas de código según la descripción del skill; usa `/ponytail` (o `/ponytail lite`, `/ponytail full`, `/ponytail ultra`) cuando necesites activarlo de forma explícita. No se usan hooks de ciclo de vida de Grok: la salida de `SessionStart` no puede inyectar instrucciones.
+Abre una sesión nueva (o recarga los plugins). Los skills aparecen como `/manbun`, `/manbun-review`, `/manbun-audit`, `/manbun-debt`, `/manbun-gain`, `/manbun-help`. Verifica con `grok inspect`. Grok puede invocar manbun automáticamente en tareas de código según la descripción del skill; usa `/manbun` (o `/manbun lite`, `/manbun full`, `/manbun ultra`) cuando necesites activarlo de forma explícita. No se usan hooks de ciclo de vida de Grok: la salida de `SessionStart` no puede inyectar instrucciones.
 
-`AGENTS.md` sigue funcionando solo como instrucciones desde un checkout sin el plugin. Desinstalar: `grok plugin uninstall ponytail`.
+`AGENTS.md` sigue funcionando solo como instrucciones desde un checkout sin el plugin. Desinstalar: `grok plugin uninstall manbun`.
 
 ### Cursor
 
 ```bash
-git clone https://github.com/DietrichGebert/ponytail
-node ponytail/scripts/cursor-hooks.js install
+git clone https://github.com/yyg27/manbun
+node manbun/scripts/cursor-hooks.js install
 ```
 
-Fusiona dos hooks nativos en `~/.cursor/hooks.json` (con `--project` escribe `<proyecto>/.cursor/hooks.json`) y conserva los hooks que ya tengas ahí. Las entradas ejecutan `node` desde ese checkout, así que déjalo donde está o vuelve a correr la instalación si lo mueves. Cursor recarga el archivo al guardarlo; abre un chat nuevo y el ruleset de tu nivel por defecto llega por `sessionStart`. Envía `/ponytail lite`, `/ponytail full`, `/ponytail ultra` o `/ponytail off` como mensaje normal para cambiar el nivel durante el resto de la conversación; `/ponytail` lo reporta. El `subagentStart` de Cursor no puede inyectar contexto, así que los subagentes corren sin el ruleset, y los agentes en la nube nunca disparan `sessionStart`. La regla permanente (`.cursor/rules/ponytail.mdc`) y los hooks son alternativas: mientras la regla esté en el workspace los hooks no inyectan nada y los comandos de modo responden con un aviso; borra la regla para que los hooks manejen el nivel. Contrato, verificación y límites: [docs/cursor-hooks.md](docs/cursor-hooks.md). Desinstalar: `node ponytail/scripts/cursor-hooks.js uninstall`.
+Fusiona dos hooks nativos en `~/.cursor/hooks.json` (con `--project` escribe `<proyecto>/.cursor/hooks.json`) y conserva los hooks que ya tengas ahí. Las entradas ejecutan `node` desde ese checkout, así que déjalo donde está o vuelve a correr la instalación si lo mueves. Cursor recarga el archivo al guardarlo; abre un chat nuevo y el ruleset de tu nivel por defecto llega por `sessionStart`. Envía `/manbun lite`, `/manbun full`, `/manbun ultra` o `/manbun off` como mensaje normal para cambiar el nivel durante el resto de la conversación; `/manbun` lo reporta. El `subagentStart` de Cursor no puede inyectar contexto, así que los subagentes corren sin el ruleset, y los agentes en la nube nunca disparan `sessionStart`. La regla permanente (`.cursor/rules/manbun.mdc`) y los hooks son alternativas: mientras la regla esté en el workspace los hooks no inyectan nada y los comandos de modo responden con un aviso; borra la regla para que los hooks manejen el nivel. Contrato, verificación y límites: [docs/cursor-hooks.md](docs/cursor-hooks.md). Desinstalar: `node manbun/scripts/cursor-hooks.js uninstall`.
 
 Eso fue todo. Él estaría orgulloso. No lo va a decir.
 
-Activo en cada sesión, con un puñado de comandos (ver [Comandos](#comandos)). `/ponytail ultra` existe para cuando el codebase te hizo algo personal. El texto de inicio y de cambio de modo muestra el nivel activo.
+Activo en cada sesión, con un puñado de comandos (ver [Comandos](#comandos)). `/manbun ultra` existe para cuando el codebase te hizo algo personal. El texto de inicio y de cambio de modo muestra el nivel activo.
 
-Configura el nivel para cada nueva sesión con la variable de entorno `PONYTAIL_DEFAULT_MODE` (`lite`/`full`/`ultra`/`off`), o con un campo `defaultMode` en `~/.config/ponytail/config.json` (`%APPDATA%\ponytail\config.json` en Windows). El default es `full`.
+Configura el nivel para cada nueva sesión con la variable de entorno `MANBUN_DEFAULT_MODE` (`lite`/`full`/`ultra`/`off`), o con un campo `defaultMode` en `~/.config/manbun/config.json` (`%APPDATA%\manbun\config.json` en Windows). El default es `full`.
 
 Cursor (solo la regla, alternativa a los [hooks](#cursor)), Windsurf, Cline, GitHub Copilot (editor), Aider, Kiro: copia el archivo de reglas correspondiente de este repo ([`.cursor/rules/`](.cursor/rules/), [`.windsurf/rules/`](.windsurf/rules/), [`.clinerules/`](.clinerules/), [`.github/copilot-instructions.md`](.github/copilot-instructions.md), [`AGENTS.md`](AGENTS.md), [`.kiro/steering/`](.kiro/steering/)).
 
-Kiro: copia `.kiro/steering/ponytail.md` a `~/.kiro/steering/` (global) o `.kiro/steering/` en tu proyecto.
+Kiro: copia `.kiro/steering/manbun.md` a `~/.kiro/steering/` (global) o `.kiro/steering/` en tu proyecto.
 
-Fallback de GitHub Copilot CLI (modo solo instrucciones): lee `AGENTS.md` y `.github/copilot-instructions.md` en un proyecto, o copia las reglas a `~/.copilot/copilot-instructions.md` para ejecutar ponytail en todos tus proyectos. Esta vía mantiene la guía permanente, pero no agrega switches de modo ni hooks.
+Fallback de GitHub Copilot CLI (modo solo instrucciones): lee `AGENTS.md` y `.github/copilot-instructions.md` en un proyecto, o copia las reglas a `~/.copilot/copilot-instructions.md` para ejecutar manbun en todos tus proyectos. Esta vía mantiene la guía permanente, pero no agrega switches de modo ni hooks.
 
 VS Code con la extensión Codex lee `AGENTS.md`, que este repo incluye, así que funciona desde la raíz del repo sin configuración adicional (`~/.codex/AGENTS.md` hace a Codex global).
 
@@ -265,13 +265,13 @@ Qué archivos corresponden a qué agente: [Portabilidad de agentes](docs/agent-p
 
 | Comando | Qué hace |
 |---------|----------|
-| `/ponytail [lite \| full \| ultra \| off]` | Cambia la intensidad, o apágalo. Sin argumento, reporta el nivel actual. |
-| `/ponytail-review` | Revisa el diff actual en busca de sobre-ingeniería y devuelve una lista de qué eliminar. |
-| `/ponytail-audit` | Audita el repo completo en busca de sobre-ingeniería, no solo el diff. |
-| `/ponytail-debt` | Recolecta los atajos marcados con `ponytail:` que dejaste pendientes en un registro, para que "después" no se convierta en "nunca". |
-| `/ponytail-help` | Referencia rápida de los comandos anteriores. |
+| `/manbun [lite \| full \| ultra \| off]` | Cambia la intensidad, o apágalo. Sin argumento, reporta el nivel actual. |
+| `/manbun-review` | Revisa el diff actual en busca de sobre-ingeniería y devuelve una lista de qué eliminar. |
+| `/manbun-audit` | Audita el repo completo en busca de sobre-ingeniería, no solo el diff. |
+| `/manbun-debt` | Recolecta los atajos marcados con `manbun:` que dejaste pendientes en un registro, para que "después" no se convierta en "nunca". |
+| `/manbun-help` | Referencia rápida de los comandos anteriores. |
 
-Los comandos requieren un host compatible con skills (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Swival). En Codex son skills; se invocan con `@` (`@ponytail-review`). Cursor con los [hooks](#cursor) solo tiene el cambio de nivel con `/ponytail`, escrito como mensaje normal. Los adaptadores de solo instrucciones (la regla de Cursor, Windsurf, Cline, Copilot, Kiro, Antigravity) cargan el ruleset permanente sin los comandos.
+Los comandos requieren un host compatible con skills (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Swival). En Codex son skills; se invocan con `@` (`@manbun-review`). Cursor con los [hooks](#cursor) solo tiene el cambio de nivel con `/manbun`, escrito como mensaje normal. Los adaptadores de solo instrucciones (la regla de Cursor, Windsurf, Cline, Copilot, Kiro, Antigravity) cargan el ruleset permanente sin los comandos.
 
 ## Desarrollo
 
@@ -289,10 +289,10 @@ El benchmark de correctness lanza Python para las verificaciones de email y CSV;
 ## FAQ
 
 **¿Puedo usarlo junto con [caveman](https://github.com/JuliusBrussee/caveman)?**
-Sí, y deberías. Caveman achica lo que el agente dice; ponytail achica lo que construye. Mitades distintas, sin solapamiento: caveman deja el código intacto byte por byte, ponytail no se mete con la prosa. Charla concisa sobre código mínimo.
+Sí, y deberías. Caveman achica lo que el agente dice; manbun achica lo que construye. Mitades distintas, sin solapamiento: caveman deja el código intacto byte por byte, manbun no se mete con la prosa. Charla concisa sobre código mínimo.
 
 **¿Necesita un archivo de configuración?**
-No. Un opcional `~/.config/ponytail/config.json` o la variable `PONYTAIL_DEFAULT_MODE` pueden fijar el nivel default, pero nada es obligatorio.
+No. Un opcional `~/.config/manbun/config.json` o la variable `MANBUN_DEFAULT_MODE` pueden fijar el nivel default, pero nada es obligatorio.
 
 **¿Y si realmente necesito la clase de caché de 120 líneas?**
 No la necesitas. Insiste de todas formas y él la va a construir. Despacio. Correctamente. Mirándote.
@@ -300,7 +300,7 @@ No la necesitas. Insiste de todas formas y él la va a construir. Despacio. Corr
 **¿Escala?**
 El código que nunca escribiste escala infinitamente. Cero bugs, cero CVEs, 100% uptime desde siempre.
 
-**¿Por qué "ponytail"?**
+**¿Por qué "manbun"?**
 Ya sabes exactamente por qué.
 
 ## Patrocinadores
@@ -320,10 +320,10 @@ Ya sabes exactamente por qué.
 
 ## Historial de estrellas
 
-<a href="https://www.star-history.com/dietrichgebert/ponytail#history">
+<a href="https://www.star-history.com/yyg27/manbun#history">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=DietrichGebert/ponytail&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=DietrichGebert/ponytail&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=DietrichGebert/ponytail&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yyg27/manbun&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yyg27/manbun&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=yyg27/manbun&type=Date" />
  </picture>
 </a>

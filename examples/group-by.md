@@ -2,7 +2,7 @@
 
 **Task:** "Group this array of objects by a key."
 
-## Without Ponytail
+## Without Manbun
 
 ```bash
 npm install lodash
@@ -24,10 +24,10 @@ const byStatus = orders.reduce((acc, order) => {
 }, {});
 ```
 
-## With Ponytail
+## With Manbun
 
 ```js
-// ponytail: Object.groupBy does this
+// manbun: Object.groupBy does this
 const byStatus = Object.groupBy(orders, order => order.status);
 // → { pending: [...], shipped: [...], delivered: [...] }
 ```

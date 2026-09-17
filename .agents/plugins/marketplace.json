@@ -1,14 +1,14 @@
 {
-  "name": "ponytail",
+  "name": "manbun",
   "interface": {
-    "displayName": "Ponytail"
+    "displayName": "Manbun"
   },
   "plugins": [
     {
-      "name": "ponytail",
+      "name": "manbun",
       "source": {
         "source": "url",
-        "url": "https://github.com/DietrichGebert/ponytail.git",
+        "url": "https://github.com/yyg27/manbun.git",
         "ref": "main"
       },
       "policy": {

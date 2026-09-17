@@ -1,27 +1,27 @@
 {
-  "name": "ponytail",
+  "name": "manbun",
   "version": "4.10.0",
   "description": "Lazy senior dev mode. Forces the simplest, shortest solution that actually works: YAGNI, stdlib first, no unrequested abstractions.",
   "author": {
     "name": "Dietrich Gebert",
-    "url": "https://github.com/DietrichGebert"
+    "url": "https://github.com/yyg27"
   },
-  "homepage": "https://github.com/DietrichGebert/ponytail",
-  "repository": "https://github.com/DietrichGebert/ponytail",
+  "homepage": "https://github.com/yyg27/manbun",
+  "repository": "https://github.com/yyg27/manbun",
   "license": "MIT",
   "keywords": ["yagni", "minimalism", "code-review", "productivity"],
   "skills": "./skills/",
   "hooks": "./hooks/claude-codex-hooks.json",
   "interface": {
-    "displayName": "Ponytail",
+    "displayName": "Manbun",
     "shortDescription": "Lazy senior developer mode",
     "longDescription": "Prefer YAGNI, the standard library, native platform features, and the smallest correct implementation.",
     "developerName": "Dietrich Gebert",
     "category": "Productivity",
     "capabilities": ["Instructions", "Lifecycle hooks"],
-    "websiteURL": "https://github.com/DietrichGebert/ponytail",
+    "websiteURL": "https://github.com/yyg27/manbun",
     "defaultPrompt": [
-      "Use Ponytail mode for this task.",
+      "Use Manbun mode for this task.",
       "Review this diff for over-engineering.",
       "Find the smallest correct implementation."
     ],

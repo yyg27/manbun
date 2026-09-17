@@ -1,4 +1,4 @@
-name: ponytail
+name: manbun
 version: 4.10.0
 description: Lazy senior dev mode for Hermes Agent, always-on context, bundled skills, and slash commands.
 author: Dietrich Gebert
@@ -6,16 +6,16 @@ provides_hooks:
   - pre_llm_call
   - pre_gateway_dispatch
 provides_commands:
-  - ponytail
-  - ponytail-review
-  - ponytail-audit
-  - ponytail-debt
-  - ponytail-gain
-  - ponytail-help
+  - manbun
+  - manbun-review
+  - manbun-audit
+  - manbun-debt
+  - manbun-gain
+  - manbun-help
 provides_skills:
-  - ponytail
-  - ponytail-review
-  - ponytail-audit
-  - ponytail-debt
-  - ponytail-gain
-  - ponytail-help
+  - manbun
+  - manbun-review
+  - manbun-audit
+  - manbun-debt
+  - manbun-gain
+  - manbun-help
