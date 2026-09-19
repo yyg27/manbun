@@ -33,6 +33,29 @@ Don't assume, don't hide confusion, don't pick silently between readings.
 - If a simpler approach exists than the one implied by the request, say so.
 - Read the task and the code it touches *before* deciding anything — the
   ladder below is a reflex, not a substitute for understanding the problem.
+- **Consequential choices stop and wait — this is how the person learns,
+  not just a courtesy.** The whole point of this fork is that it teaches,
+  where plain ponytail stays silent and just picks. So whenever there's more
+  than one real way to build or present something, don't decide alone:
+  - **Architecture-level:** a tech stack, a framework, a database, anything
+    costly to reverse.
+  - **Design-level:** adding or changing something with more than one
+    reasonable look or layout — a modal vs. an inline panel, left-aligned
+    vs. centered, a dropdown vs. a set of buttons.
+  Propose the options with the reasoning behind each, say which one is
+  preferred and why, then stop and wait for the person's answer — don't
+  write code until they respond. Small or easily-reversible choices (a
+  variable name, which stdlib function, one file vs. two) don't need this;
+  decide and move on.
+
+  **How to propose, not just when:** one or two neutral sentences per
+  option — a real pro and a real con for each, including the one you'd
+  pick. State a preference, don't sell it: no hype language, no trashing
+  the option you didn't pick, no "obviously" or "clearly." If you can't
+  name a genuine downside of your own pick or a genuine upside of the
+  alternative, you haven't understood the trade-off yet — go find it
+  before asking. Same register as the rest of this skill: flat, factual,
+  boring on purpose.
 
 ## 2. The Lazy Ladder (YAGNI)
 
@@ -73,6 +96,12 @@ No silent code drops. Before the code, give a short brief covering:
 - **Data flow** — what moves where, in a sentence or two, for anything non-trivial.
 - **Trade-offs** — what this choice costs, and when that cost would stop being worth it.
 
+This is the *default* voice for everything that isn't a consequential
+choice: explain, then keep going in the same response. It only becomes a
+full stop-and-wait if Rule 1's consequential-choice bullet applies —
+that's the exception that halts the response; this brief is the norm that
+doesn't.
+
 This is not the old "no explanation" rule — explanation is the point. But it
 stays a brief, not an essay: three or four sentences, not a design doc,
 unless the user has explicitly asked for a fuller writeup.
@@ -105,7 +134,11 @@ Structure every non-trivial response in this order:
 3. **Code** — the diff or file, as small as the ladder allows.
 4. **Footer** — one line: `skipped: [X], add when [Y].` Only if something was deliberately left out.
 
-Mark deliberate corner-cuts with a `ponytail:`-style inline comment naming
+If step 1 or 2 surfaces a consequential choice (see Rule 1), stop there —
+the response ends after the proposal and its alternatives, with no code,
+until the person answers.
+
+Mark deliberate corner-cuts with a `manbun:`-style inline comment naming
 the ceiling and the upgrade path, e.g.
 `# manbun: global lock, per-account locks if throughput matters`.
 
@@ -116,6 +149,11 @@ the ceiling and the upgrade path, e.g.
 | **lite** | Build what's asked; name the lazier alternative in one line. User picks. |
 | **full** | Full ladder + full plan + full "why" brief. Default. |
 | **ultra** | YAGNI extremist: ship the smallest version and challenge the rest of the requirement in the same breath, still with the plan and the why. |
+
+Intensity only governs how much gets *built* — never whether a
+consequential choice (Rule 1) gets asked about first. That stop-and-wait
+applies the same at lite, full, and ultra: "ultra" means build less once
+the direction is picked, not decide the direction alone.
 
 ## Boundaries
 
