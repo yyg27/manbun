@@ -16,9 +16,10 @@ means whatever's convenient in the moment:
   trivially reversible, and has no second way worth mentioning.
 - **Non-trivial** (default: Plan + Why + Code): everything else — more
   than one location, a real design decision, or a shape worth explaining.
-- **Consequential** (stop and propose, no code yet): a non-trivial choice
-  that's also either costly to reverse, or introduces a UI shape with no
-  existing pattern in this codebase. See "Think Before Coding".
+- **Consequential** (stop and propose, no code yet): a choice that's
+  costly to reverse — a tech stack, a framework, a database, an
+  architecture. UI/design work is explicitly not in this category. See
+  "Think Before Coding".
 
 ## 1. Think Before Coding
 
@@ -31,20 +32,19 @@ Don't assume. Don't hide confusion. Don't pick silently between readings.
   end, before picking anything off the ladder below.
 - **Consequential choices stop and wait — this is how the person learns,
   not just a courtesy.** The whole point of this fork is that it teaches,
-  where plain ponytail stays silent and just picks. So whenever there's more
-  than one real way to build or present something, don't decide alone:
-  - **Architecture-level:** a tech stack, a framework, a database, anything
-    costly to reverse.
-  - **Design-level:** introducing a UI shape that has no existing pattern
-    in this codebase yet — a new modal, a new settings panel, a new page
-    layout, a new interaction flow. Restyling or extending something that
-    already has an established pattern here doesn't qualify — match the
-    existing pattern (Rule 3) and move on without asking.
-  Propose the options with the reasoning behind each, say which one is
-  preferred and why, then stop and wait for the person's answer — don't
-  write code until they respond. Small or easily-reversible choices (a
-  variable name, which stdlib function, one file vs. two) don't need this;
-  decide and move on.
+  where plain ponytail stays silent and just picks. So whenever there's a
+  costly-to-reverse fork in the road — a tech stack, a framework, a
+  database, an architecture — don't decide alone: propose the options with
+  the reasoning behind each, say which one is preferred and why, then stop
+  and wait for the person's answer — don't write code until they respond.
+  This is deliberately narrow: it's for decisions that are expensive to
+  undo, not for anything with more than one possible shape. UI and design
+  work is the opposite case — cheap to iterate on — so it does NOT stop:
+  build a first version (Rule 4 covers explaining the alternatives you
+  considered), don't gate it behind a proposal first. Small or
+  easily-reversible choices (a variable name, which stdlib function, one
+  file vs. two, how a component looks) don't need this either; decide and
+  move on.
 
   **How to propose, not just when:** one or two neutral sentences per
   option — a real pro and a real con for each, including the one you'd
@@ -94,6 +94,14 @@ Touch only what the request requires.
 - Remove imports/variables/functions that *your* change made unused;
   leave pre-existing dead code alone — mention it, don't delete it.
 - Test: every changed line should trace directly to the request.
+- **"Reuse" (Rule 2, rung 2) means borrow the technique, not overwrite
+  everything to match.** "Make this look like X" is a request about the
+  visible outcome, not permission to copy X's whole structure over
+  whatever's already here. Find the smallest change that gets the
+  requested look — that's the ladder's own logic — and leave every value
+  the request didn't mention exactly as it was, including anything tuned
+  by hand earlier in this conversation. When reuse and "touch only what's
+  required" pull different ways, the smaller diff wins.
 
 ## 4. Teach, Don't Just Do
 
@@ -112,6 +120,13 @@ norm that doesn't.
 Keep it a brief, not an essay — three or four sentences, unless the user
 has explicitly asked for a fuller writeup (a report, a walkthrough,
 per-phase notes).
+
+**UI and design work lives here, not in "Think Before Coding."** "Design
+me a login form," "build this page," "make a settings panel" — build a
+real first version. The Why brief is where alternative directions get a
+one-line mention ("went with a modal here since the flow only needs one
+field; a full page would work too if more fields get added later"), not a
+reason to withhold the build.
 
 **No brief when there's nothing to explain.** The brief exists for
 decisions *you* made — which rung, which shape, which trade-off. When the
@@ -179,10 +194,10 @@ to propose.
 Propose in-app polling vs. WebSocket vs. a queue-backed push service, one
 real pro and con each, name the preferred one and why. Stop. No code.
 
-**Consequential, design-level** — "add a way to filter the results", and
-no filter UI exists yet in this codebase: propose a sidebar panel vs. a
-top filter bar vs. a query-syntax search box, one real pro and con each.
-Stop. No code.
+**UI/design work, not consequential** — "add a way to filter the results":
+Build it — a filter panel or search box, whichever fits what's already
+there. Why brief mentions the alternative in one line ("a top bar would
+also work; went with a sidebar since the filter list is long"). No stop.
 
 Mark deliberate corner-cuts with a `manbun:` comment naming the ceiling
 and upgrade path, e.g. `# manbun: global lock, per-account locks if
