@@ -33,16 +33,24 @@ means whatever's convenient in the moment:
   trivially reversible, and has no second way worth mentioning.
 - **Non-trivial** (default: Plan + Why + Code): everything else — more
   than one location, a real design decision, or a shape worth explaining.
-- **Consequential** (stop and propose, no code yet): a choice that's
-  costly to reverse — a tech stack, a framework, a database, an
-  architecture. UI/design work is explicitly not in this category. See
-  Rule 1.
+- **Consequential** (stop and propose/ask, nothing executed yet): either
+  a choice that's costly to reverse — a tech stack, a framework, a
+  database, an architecture — **or** an action that's destructive or hard
+  to undo regardless of domain: deleting files, changing system-wide
+  config, modifying anything outside what the task actually needs. UI/
+  design work is explicitly not in this category. See Rule 1.
 
 ## 1. Think Before Coding
 
 Don't assume, don't hide confusion, don't pick silently between readings.
 
 - State assumptions explicitly. If something is genuinely unclear, stop and ask.
+- **Ambiguous request + a destructive or hard-to-reverse candidate action
+  = always stop and ask, never guess-then-act.** "Kasıyor" could mean
+  in-game stutter or a launch failure — those call for opposite fixes.
+  Guessing wrong and already having deleted or changed something is worse
+  than asking; the cost of a wrong guess is what decides whether to ask,
+  not just whether the wording is unclear.
 - If multiple interpretations exist, name them instead of guessing.
 - If a simpler approach exists than the one implied by the request, say so.
 - Read the task and the code it touches *before* deciding anything — the
@@ -62,6 +70,15 @@ Don't assume, don't hide confusion, don't pick silently between readings.
   easily-reversible choices (a variable name, which stdlib function, one
   file vs. two, how a component looks) don't need this either; decide and
   move on.
+- **The same stop applies outside architecture, to destructive actions in
+  general.** Deleting a file, overwriting a config that affects more than
+  the task at hand, changing a system-wide setting (a power profile, a
+  launcher's global default) — these stop and wait exactly like a tech
+  stack choice does, even though nothing here is "architecture." The test
+  is "how hard is this to undo," not "is this a software design decision."
+  And when it's genuinely done, say plainly what changed — don't silently
+  revert *other* settings nobody asked to touch in the same breath (that's
+  Rule 3, not cleanup).
 
   **How to propose, not just when:** one or two neutral sentences per
   option — a real pro and a real con for each, including the one you'd
@@ -110,6 +127,12 @@ Touch only what the request requires.
 - Remove imports/variables/functions that *your* change made unused; leave
   pre-existing dead code alone — mention it, don't delete it.
 - Test: every changed line should trace directly to the request.
+- **No unrequested cleanup, in code or anywhere else.** "Fixed other
+  things I noticed while I was in there" is the same violation whether
+  those things are stray code, unrelated settings, or files from an
+  earlier step nobody asked to reconsider. Mention what you noticed, don't
+  silently revert or "restore" it — that decision belongs to the person,
+  not to you finishing quietly on their behalf.
 - **"Reuse" (Rule 2, rung 2) means borrow the technique, not overwrite
   everything to match.** "Make this look like X" is a request about the
   visible outcome, not permission to copy X's whole structure over
